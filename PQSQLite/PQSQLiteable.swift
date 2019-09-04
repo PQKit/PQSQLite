@@ -147,7 +147,7 @@ public extension PQSQLiteable {
         } catch {
             print(#function, "insert 解析失败", error)
         }
-    }
+    } 
     
     // MARK: - delete
     @discardableResult
